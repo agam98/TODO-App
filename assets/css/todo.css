@@ -35,12 +35,14 @@ input {
 	color: #2980b9;
 	padding: 13px 13px 13px 20px;
 	box-sizing:  border-box;
+	border: 3px solid rgba(0,0,0,0);
 }
 input:focus {
 	background: #fff;
 	border: 3px solid #2980b9;
 	outline: none;
 	font-family: 'Pacifico', cursive;
+
 }
 
 body {
@@ -58,4 +60,19 @@ body {
 .fa-plus-circle
 {
 	float: right;
+}
+
+span {
+	background: #ff3300;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	margin-right: 20px;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+li:hover span {
+	width: 45px;
+	opacity: 1.0;
 }
