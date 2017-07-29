@@ -40,6 +40,7 @@ input:focus {
 	background: #fff;
 	border: 3px solid #2980b9;
 	outline: none;
+	font-family: 'Pacifico', cursive;
 }
 
 body {
@@ -52,4 +53,9 @@ body {
 .completed{
 	color: gray;
 	text-decoration: line-through;
+}
+
+.fa-plus-circle
+{
+	float: right;
 }
